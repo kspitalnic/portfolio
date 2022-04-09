@@ -17,14 +17,14 @@ function Nav() {
 
   return (
     <header data-testid="header" className="flex-row px-1">
-        {/* CENTER AND MAKE BIGGER OR REMOVE AND STYLE ON HEADER COMPONENT */}
+        {/* TODO CENTER AND MAKE BIGGER OR REMOVE AND STYLE ON HEADER COMPONENT */}
       <h2>
         <a href="/">
          Spitalnic
         </a>
       </h2>
       <nav>
-          {/* PUT UNDER HEADER */}
+          {/* TODO PUT UNDER HEADER */}
         <ul className="flex-row">
           <li className="mx-2">
             <a href="#Projects" onClick={() => handleClick()}>

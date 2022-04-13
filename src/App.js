@@ -7,9 +7,10 @@ function App() {
 
   return (
     <div>
-              <Nav></Nav>
+        <Nav></Nav>
       <main>
-        <Header></Header>
+        <Header>
+        </Header>
         <Footer></Footer>
       </main>
     </div>

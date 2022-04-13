@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component matches snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="flex-row px-1"
+    data-testid="header"
+  >
+    <h2>
+      <a
+        href="/"
+      >
+        Spitalnic
+      </a>
+    </h2>
+    <nav>
+      <ul
+        class="flex-row"
+      >
+        <li
+          class="mx-2"
+        >
+          <a
+            href="#Projects"
+          >
+            Projects
+          </a>
+        </li>
+        <li
+          class="mx-2"
+        >
+          <a
+            href="#About"
+          >
+            About
+          </a>
+        </li>
+        <li
+          class="mx-2"
+        >
+          <a
+            href="#Contact"
+          >
+            Contact
+          </a>
+        </li>
+        <li
+          class="mx-2"
+        >
+          <a
+            href="#Resume"
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</DocumentFragment>
+`;

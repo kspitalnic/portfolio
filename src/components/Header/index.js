@@ -13,7 +13,8 @@ function Header(props) {
 				<Nav
 					currentPage={currentPage}
 					setCurrentPage={setCurrentPage}
-				></Nav>
+          >
+        </Nav>
 			</div>
 		</header>
 	);

@@ -10,13 +10,13 @@ const { currentPage, setCurrentPage } = props;
     <header data-testid="header" className="flex-row">
       <nav className="nav">
           <ul className="flex-row mobile-view">
-				<li className={currentPage === "about" ? "mx-2 navActive" : "mx-2"}>
+				<li className={currentPage === "about" ? "mx-2 navActive" : "mx-2 navInactive"}>
 					<span onClick={() => setCurrentPage("about")}>About</span>
 				</li>
-				<li className={currentPage === "project" ? "mx-2 navActive" : "mx-2"}>
+				<li className={currentPage === "project" ? "mx-2 navActive" : "mx-2 navInactive"}>
 					<span onClick={() => setCurrentPage("project")}>Projects</span>
 				</li>
-				<li className={currentPage === "contact" ? "mx-2 navActive" : "mx-2"}>
+				<li className={currentPage === "contact" ? "mx-2 navActive" : "mx-2 navInactive"}>
 					<span onClick={() => setCurrentPage("contact")}>Contact</span>
 				</li>
 				<li>

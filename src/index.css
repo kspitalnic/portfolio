@@ -187,6 +187,11 @@ nav a:hover {
 font-weight: bold;
 }
 
+nav li:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 nav :hover {
   text-decoration: none;
   font-weight: bold;
@@ -334,7 +339,11 @@ a {
 
 .navActive {
   /* color: var(--secondary); */
-  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navInactive {
+  font-weight:lighter;
 }
 
 .nav {

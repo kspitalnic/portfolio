@@ -64,11 +64,11 @@ function Project() {
                                 <Card.Subtitle className="card-description mb-2">{project.description}</Card.Subtitle>
                                 <br />
 
-                                <Card.Link href={project.github} rel="noreferrer" target="_blank" >Deployed Application</Card.Link>
+                                <Card.Link href={project.deployed} rel="noreferrer" target="_blank" >Deployed Application</Card.Link>
                                 <br />
                                 <br />
 
-                                <Card.Link href={project.deployed} rel="noreferrer" target="_blank">Project Repository</Card.Link>
+                                <Card.Link href={project.github} rel="noreferrer" target="_blank">Project Repository</Card.Link>
                             </Card.Body>
                         </Card.ImgOverlay>
 

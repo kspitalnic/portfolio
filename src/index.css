@@ -94,13 +94,13 @@ a:hover {
 header {
   background: var(--dark);
   justify-content: space-around;
-  margin: 25%;
 }
 
 header h2 {
 text-align: center;
 width:100%;
 font-size: 50px;
+margin-top: 20%;
 }
 
 header a {
@@ -304,4 +304,8 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.nav {
+  margin-bottom: 25%;
 }

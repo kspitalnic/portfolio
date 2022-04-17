@@ -1,55 +1,37 @@
 import React, { useEffect } from 'react';
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav() {
+function Nav(props) {
 
-  // useEffect(() => {
-  //   document.title = capitalizeFirstLetter(currentProject.name);
-  // }, [currentProject.name]);
-//   const  categories = [
-//     { name: 'Web Development', description: 'Web Development' },
-//     { name: 'Writing', description: 'Articles/Blog Posts' },
-//     { name: 'Fitness', description: 'Personal Training' },
-//     { name: 'Music', description: 'Drumming' },
-//     { name: 'Media', description: 'Social Media' }
-
-//   ];
-
-  const handleClick = () => {
-    console.log("click handled")
-  }
+const { currentPage, setCurrentPage } = props; 
+  // const handleClick = () => {
+  //   console.log("click handled")
+  // }
 
   return (
-    <header data-testid="header" className="flex-row px-1">
+    <header data-testid="header" className="flex-row">
         {/* TODO CENTER AND MAKE BIGGER OR REMOVE AND STYLE ON HEADER COMPONENT */}
-      <h2>
+      {/* <h2>
         <a href="/">
          Spitalnic
         </a>
-      </h2>
-      <nav>
-          {/* TODO PUT UNDER HEADER */}
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a href="#Projects" onClick={() => handleClick()}>
-              Projects 
-            </a>
-          </li> 
-          <li className="mx-2">
-            <a href="#About" onClick={() => handleClick()}>
-              About 
-            </a>
-          </li> 
-          <li className="mx-2">
-            <a href="#Contact" onClick={() => handleClick()}>
-              Contact 
-            </a>
-          </li> 
-          <li className="mx-2">
-            <a href="#Resume" onClick={() => handleClick()}>
-              Resume 
-            </a>
-          </li> 
+      </h2> */}
+      <nav className="nav">
+          <ul className="flex-row mobile-view">
+				<li className={currentPage === "about" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentPage("about")}>About</span>
+				</li>
+				<li className={currentPage === "project" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentPage("project")}>Projects</span>
+				</li>
+				<li className={currentPage === "contact" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentPage("contact")}>Contact</span>
+				</li>
+				<li className={currentPage === "resume" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentPage("resume")}>Resume</span>
+				</li>
+			</ul>
+        
 
           {/* {
             categories.map((category) => (
@@ -60,7 +42,6 @@ function Nav() {
               </li>
             ))
           } */}
-        </ul>
       </nav>
     </header>
   );

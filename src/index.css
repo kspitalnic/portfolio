@@ -27,6 +27,14 @@ body {
   min-height: 100%;
 }
 
+.cards {
+  justify-content: space-around;
+}
+
+.card{
+  background-color: white;
+  margin: 5px;
+}
 body {
   margin: 0;
   padding: 0;

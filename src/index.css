@@ -48,6 +48,14 @@ body {
 
 }
 
+.card-title {
+  color: black;
+}
+
+.card-description {
+  color: darkgrey;
+}
+
 h1,
 h2,
 h3,

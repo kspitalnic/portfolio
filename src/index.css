@@ -105,6 +105,7 @@ margin-top: 20%;
 
 header a {
   color: var(--light);
+  text-decoration: none;
 }
 
 button {
@@ -161,8 +162,11 @@ li {
 
 nav a:hover {
   text-decoration: none;
-  text-decoration: underline;
+}
 
+nav :hover {
+  text-decoration: none;
+  font-weight: 1000;
 }
 
 nav  li {

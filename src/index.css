@@ -34,7 +34,13 @@ body {
 .card{
   background-color: white;
   margin: 5px;
+  height: 550px;
 }
+
+.cardImg {
+  height: 250px;
+}
+
 body {
   margin: 0;
   padding: 0;

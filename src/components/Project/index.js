@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
             id: 1,
             name: 'XYZ Car-Rental Review',
             description: 'Web application to view, create, edit, and update reviews on cars from XYZ car rentals.',
-            image: 'portrait',
+            image: 'cars',
             github: 'github link',
             deployed: 'live site link'
         },
@@ -14,7 +14,7 @@ import Card from 'react-bootstrap/Card';
             id: 2,
             name: 'Initial Portfolio',
             description: 'Front end portfolio application displaying web development projects.',
-            image: 'portrait',
+            image: 'portfolio1',
             github: 'github link',
             deployed: 'live site link'
         },
@@ -57,7 +57,7 @@ import Card from 'react-bootstrap/Card';
             {projects.map((project) => (
                 <div>
                 <Card style={{ width: '18rem' }} className="card">
-  <Card.Img src={require(`../../assets/images/${project.image}.jpeg`)} alt="Project thumbnail" />
+  <Card.Img className="cardImg" src={require(`../../assets/images/${project.image}.jpeg`)} alt="Project thumbnail" />
   <Card.ImgOverlay>
                 <Card.Body>
                   <Card.Title className="card-title" href={project.depoloyed}>{project.name}</Card.Title>

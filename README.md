@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+TODO: 
+Add in projects with image, links, and information, Links in footer (github linkedin )
+stylistic touches (e.g., padding on contact page and about) 
+center contact page form 
+auto scroll feature 

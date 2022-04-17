@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from 'react';
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav() {
+
+  // useEffect(() => {
+  //   document.title = capitalizeFirstLetter(currentProject.name);
+  // }, [currentProject.name]);
 //   const  categories = [
 //     { name: 'Web Development', description: 'Web Development' },
 //     { name: 'Writing', description: 'Articles/Blog Posts' },

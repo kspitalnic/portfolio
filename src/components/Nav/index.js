@@ -19,9 +19,12 @@ const { currentPage, setCurrentPage } = props;
 				<li className={currentPage === "contact" ? "mx-2 navActive" : "mx-2"}>
 					<span onClick={() => setCurrentPage("contact")}>Contact</span>
 				</li>
-				<li className={currentPage === "resume" ? "mx-2 navActive" : "mx-2"}>
-					<span onClick={() => setCurrentPage("resume")}>Resume</span>
-				</li>
+				<li>
+          <span>
+          <a href={require("../../assets/KSpitalnicResume.pdf")} rel="noreferrer" target="_blank" alt="Katie's Resume">
+					Resume
+				</a>				</span>
+        </li>
 			</ul>
       </nav>
     </header>

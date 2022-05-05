@@ -7,7 +7,9 @@ function Header(props) {
 	return (
 		<header>
 			<div>
+				<a href = "/">
 				<h2>Spitalnic</h2>
+				</a>
 				<Nav
 					currentPage={currentPage}
 					setCurrentPage={setCurrentPage}

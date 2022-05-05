@@ -36,11 +36,11 @@ const projects = [
     },
     {
         id: 5,
-        name: 'Project 5',
-        description: 'Coming Soon',
-        image: 'placeholder',
-        github: 'https://github.com/kspitalnic?tab=repositories',
-        deployed: ''
+        name: 'Workout Assistant',
+        description: 'Find and save exercises and create workout routines.',
+        image: 'workoutassistant',
+        github: 'https://github.com/ryanweiler92/Workout-Assistant',
+        deployed: 'https://powerful-beach-20504.herokuapp.com/'
     },
     {
         id: 6,

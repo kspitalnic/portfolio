@@ -45,14 +45,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 # Resources
-Deployed Application: 
+Deployed Application: https://kspitalnic.github.io/portfolio/
 
 Github Repo: https://github.com/kspitalnic/portfolio 
-Deployed Application: https://kspitalnic.github.io/portfolio/
 <br/>
-
-## Contribution 
-Made by Katie
 
 
 ## Future Directions 
